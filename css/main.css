@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+}
+
+section {
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+.technologies {
+    background-color: aliceblue;
+}
+
+.schedule {
+    background-color: tomato;
+}
+
+.curriculum {
+    background-color: rgba(0, 200, 50, 0.3);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
