@@ -25,7 +25,6 @@ nav {
     padding: 0.5em;
     margin-bottom: 50px;
     
-
 }
 
 nav ul {
@@ -42,4 +41,42 @@ nav li {
 
 nav a {
     text-decoration: none;
+}
+
+table {
+    display: table;
+    padding: 0.5em;
+    border-collapse: separate;
+}
+
+thead {;
+    display: table-header-group;
+    vertical-align: middle;
+}
+
+tr {
+    display: table-row;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+th {
+    font-weight: bold;
+    border-bottom: 1px dotted grey;
+}
+
+td, th {
+    padding: 0.5em;
+    display: table-cell;
+}
+
+td {
+    border-left: 1px dotted grey;
+}
+
+.first-td {
+    border-left: 0px;
 }
